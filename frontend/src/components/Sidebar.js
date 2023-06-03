@@ -44,7 +44,7 @@ function Sidebar() {
     });
 
     function getRooms() {
-        fetch("http://localhost:5001/rooms")
+        fetch("https://mernchatapp-backend-3gk2.onrender.com/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
