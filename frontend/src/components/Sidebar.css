@@ -1,0 +1,38 @@
+.member-status-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.member-status {
+    margin-bottom: 0;
+    position: relative;
+    padding: 8px;
+}
+
+.sidebar-online-status {
+    color: green;
+}
+
+.sidebar-offline-status {
+    color: #e3b505;
+}
+
+.sidebar-offline-status,
+.sidebar-online-status {
+    font-size: 11px;
+    position: absolute;
+    z-index: 99;
+    bottom: 10px;
+    left: 12px;
+    
+}
+.user_list{
+    padding: 8px;
+}
+.FaUsers-icon,
+.FaUserSecret-icon{
+    font-size: 21px;
+    color: crimson;
+}
